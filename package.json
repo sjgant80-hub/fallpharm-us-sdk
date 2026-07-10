@@ -1,0 +1,24 @@
+{
+  "name": "@ai-native-solutions/fallpharm-us-sdk",
+  "version": "1.0.0",
+  "description": "fallpharm-us SDK · sovereign single-file library extracted from fallpharm-us/index.html",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": ["src", "docs", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test/",
+    "smoke": "node examples/smoke.js"
+  },
+  "keywords": ["fallpharm-us", "sdk", "sovereign", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallpharm-us-sdk.git"
+  },
+  "homepage": "https://sjgant80-hub.github.io/fallpharm-us-sdk/",
+  "publishConfig": {
+    "access": "public"
+  }
+}
